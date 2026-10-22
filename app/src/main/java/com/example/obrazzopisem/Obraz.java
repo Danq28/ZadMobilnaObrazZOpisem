@@ -1,17 +1,17 @@
 package com.example.obrazzopisem;
 
-abstract class Obraz {
-    protected String idObrazka;
+abstract  class Obraz {
+    protected int idObrazka;
 
-    public Obraz(String idObrazka) {
+    public Obraz(int idObrazka) {
         this.idObrazka = idObrazka;
     }
 
-    public String getIdObrazka() {
+    public int getIdObrazka() {
         return idObrazka;
     }
 
-    public void setIdObrazka(String idObrazka) {
+    public void setIdObrazka(int idObrazka) {
         this.idObrazka = idObrazka;
     }
 }

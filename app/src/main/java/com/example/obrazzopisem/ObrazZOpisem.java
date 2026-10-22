@@ -4,7 +4,7 @@ public class ObrazZOpisem extends Obraz {
     private String opis;
 
 
-    public ObrazZOpisem(String idObrazka, String opis) {
+    public ObrazZOpisem(int idObrazka, String opis) {
         super(idObrazka);
         this.opis = opis;
     }
